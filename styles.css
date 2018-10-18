@@ -1,0 +1,152 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  width: 100%;
+}
+
+main {
+  border-top: 9px solid #000;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding: 2rem;
+}
+
+input {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  overflow: visible;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+p {
+  margin: 0;
+}
+
+label:hover {
+  cursor: pointer;
+}
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button { 
+  height: auto;
+}
+
+.sans-serif {
+  font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, 'helvetica neue', helvetica, ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+}
+
+.clock {
+  margin-right: 20px;
+  min-width: 120px;
+  font-size: 1.5rem;
+}
+
+.am_pm {
+  color: #AAA;
+  font-size: 1rem;
+}
+
+.alarms__container {
+  padding-top: 0;
+}
+
+.alarms {
+  list-style: none;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  padding: 0;
+  margin: 0;
+  max-width: 30rem;
+  width: 100%;
+}
+
+.alarm {
+  padding: .5rem 1rem;
+  border: 1px solid;
+  margin-bottom: 1rem;
+}
+
+.alarm__inputs {
+  display: flex;
+  width: 100%;
+}
+
+.input__time {
+  max-width: 3rem;
+  border: none;
+  margin-right: 0rem;
+}
+
+.input__am_pm {
+  display: flex;
+  flex: 2 1 auto;
+  width: 100%;
+  max-width: 14rem;
+}
+
+.input__label {
+  margin: 0 1rem;
+  color: #aaa;
+}
+
+input:checked + .input__label {
+  color: #000;
+}
+
+.right-arrow:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 30rem) {
+  .clock {
+    min-width: 200px;
+    font-size: 3rem;
+  }
+
+  .am_pm,
+  .alarms {
+    font-size: 2rem;
+  }
+
+  .input__time {
+    max-width: 5rem;
+    margin-right: 1rem;
+  }
+
+  .input__am_pm {
+    max-width: 14rem;
+  }
+}
+
+@media screen and (min-width: 60rem) {
+  section {
+    padding: 4rem;
+  }
+
+  .clock {
+    min-width: 460px;
+    font-size: 6rem;
+  }
+
+  .am_pm,
+  .alarms {
+    font-size: 3rem;
+  }
+
+}

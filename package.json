@@ -1,0 +1,16 @@
+{
+  "name": "alarm-clock",
+  "version": "1.0.0",
+  "description": "An alarm clock",
+  "main": "index.js",
+  "scripts": {
+    "dev": "budo app.js --live --open",
+    "start": "budo app.js --open"
+  },
+  "keywords": [],
+  "author": "Jake Burden <jake@burden.blog>",
+  "license": "MIT",
+  "devDependencies": {
+    "budo": "^11.4.1"
+  }
+}
