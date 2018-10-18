@@ -1,6 +1,6 @@
 # alarm-clock
 
-> An alarm clock
+> An alarm clock with vanilla JS
 
 ## Usage
 
