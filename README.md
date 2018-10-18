@@ -9,7 +9,7 @@ $ npm install
 $ npm start
 ```
 
-- Then open http://10.0.0.57:9966/ in your browser.
+- Then open http://127.0.0.1:9966/ in your browser.
 
 
 This is an alarm clock that was made with vanilla JS in about three hours time.
